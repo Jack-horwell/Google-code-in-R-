@@ -1,0 +1,12 @@
+data <- read.csv("Task dataset.csv")
+
+averageDifference <- function(data){
+  mean <- mean(data)
+  median <- median(data)
+  difference <- mean - median
+  return(difference)
+}
+
+siteVisits <- data$behavNumVisits
+siteVisits <- averageDifference(siteVisits)
+print(siteVisits)
