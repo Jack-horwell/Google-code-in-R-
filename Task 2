@@ -1,3 +1,4 @@
+data <- read.csv("Task dataset.csv")
 australianCities <- subset(data, country == "Australia")
 australianCities <- australianCities$city
 australianCities <- table(australianCities)
