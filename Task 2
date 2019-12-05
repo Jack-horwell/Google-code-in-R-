@@ -1,0 +1,4 @@
+australianCities <- subset(data, country == "Australia")
+australianCities <- australianCities$city
+australianCities <- table(australianCities)
+print(subset(australianCities, australianCities == max(australianCities)))
