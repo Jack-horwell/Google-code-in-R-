@@ -1,0 +1,3 @@
+data <- read.csv("Task dataset.csv")
+nrow(data)
+ncol(data)
