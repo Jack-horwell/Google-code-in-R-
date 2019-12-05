@@ -1,0 +1,6 @@
+data <- read.csv("Task dataset.csv")
+cities <- subset(data, city != "")
+cities <- cities$city
+cities <- table(cities)
+which.max(cities)
+cities[236]
