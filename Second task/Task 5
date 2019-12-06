@@ -1,0 +1,1 @@
+write.csv(student, "student.csv")
