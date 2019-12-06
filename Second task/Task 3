@@ -1,0 +1,5 @@
+student <- data.frame(
+  name = c("Piran","Edward","Harrison","Sam","Adam"),
+  age = c("15", "14", "16", "14", "16"), 
+  class = c("A", "B", "B", "B", "A")
+)
