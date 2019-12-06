@@ -1,0 +1,6 @@
+install.packages("RCurl")
+
+library(RCurl)
+data <- getURL("https://raw.githubusercontent.com/Jack-horwell/Google-code-in-R-/master/Second%20task/student.csv")
+data <- data.frame(data)
+head(data)
