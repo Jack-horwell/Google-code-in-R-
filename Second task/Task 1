@@ -1,0 +1,2 @@
+data <- read.csv("people.csv")
+data <- data.frame(data)
