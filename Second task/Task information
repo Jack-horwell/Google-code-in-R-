@@ -1,1 +1,19 @@
+1) The program uses the "read.csv()" function to get the data from a csv file and then the "data.frame()" function converts
+it into a data frame
 
+2) The built-in function "head()" takes the first few observations from a given dataset
+
+3) The variable "student" is used to store the data of five students. The function "data.frame()" allows variables to be easily
+added when it is provided with a variable name and an array of content
+
+4) The task of adding an extra column and adding data to the dataframe can be done simply in one line. The variable "student" is called
+and the operator "$" specifies that we want to add data to the column that comes next, as we put "height" as the column and
+it does not exist, it is created. We can then add data to this column using the "c()" function with five observations as this
+is how many rows there are. The data frame can then be added to using the "rbind()" function, this allows us to specify a 
+dataframe and add an observation to it
+
+5) The built in function "write.csv()" allows a data frame to be named and a name for the csv file. A csv file is then created
+in the same area as the current workspace with the chosen name
+
+6) The "read.csv()" function can be used to import a csv file from the internet, for example Github, and put it into a variable.
+The "head()" function can also be used to get the first few entries and print them out
